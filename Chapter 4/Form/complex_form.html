@@ -30,7 +30,52 @@
         <input type="radio" name="radio" id="radio1">
 
         <label for="radio2">Female</label>
-        <input type="radio" name="radio" id="radio2">
+        <input type="radio" name="radio" id="radio2"><br>
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="us">United States</option>
+        </select>
+
     </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+
+        <label for="strret">Street:</label>
+        <input type="text" name="Street" id="strret">
+        <br>
+
+        <label for="city">City:</label>
+        <input type="text" name="City" id="city">
+        <br>
+
+        <label for="state">State:</label>
+        <input type="text" name="State" id="state">
+        <br>
+        
+
+        <label for="code">Zip Code:</label>
+        <input type="text" name="Code" id="code">
+        <br>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Information</legend>
+
+        <label for="textarea">Comments:</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <br>
+
+        <label for="terms">I agree to terms of service:</label>
+        <input type="checkbox" name="Terms" id="terms">
+
+    </fieldset>
+
+    <input type="submit" value="Submit">
+    
 </body>
 </html>
