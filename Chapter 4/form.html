@@ -14,7 +14,8 @@
         <h1>Travel form for our school trip</h1>
         <form action="form.php">
 
-            <input type="text" placeholder="Enter Your Name"><br>
+            <label for="name">Enter Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name"><br>
 
             <label for="sectionida">
                 <input type="radio" value="Section a" name="section" id="sectionida"> Section A
@@ -39,7 +40,9 @@
                 <option value="creta">Creta</option>
                 <option value="harrier">Harrier</option>
                 <option value="thar">Thar</option>
-            </select>
+            </select><br>
+
+            <input type="submit" value="Submit">
         </form>
     </div>
 </body>
